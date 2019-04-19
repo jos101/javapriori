@@ -16,7 +16,7 @@ date: 19 April 2019
 bibliography: paper.bib
 ---
 
-``Background``
+```Background```
 Apriori [@apriori] is a data mining algorithm focusing to obtain the proper 
 association rules in a set of transactions. Where transactions represent the 
 registration of a purchased done by a visitor in a basket. Market Basket Analysis 
@@ -33,7 +33,7 @@ between number of appearances of the precedent and consequence in a transaction
 over the number of transactions in which the precedent appears are equal or 
 greater than the confidence given.
 
-``The java implemantation``
+```The java implemantation```
 
 ``Javapriori`` is a java tool that implements the apriori algorithm over a 
 YML o Text file. The results of frequent items and the association rules are 
@@ -97,7 +97,7 @@ the output in JSON format is  given by the flag -json
 * java -jar Javapriori.jar  -c 80 -s 20 -json -o output.json transaction.yml
 
 
-``Porpuse``
+```Porpuse```
 
 The ``Javapriori`` was created with the intention to give researchers the 
 possibility to analyse data stored in a text or yaml file. Also to export the 
