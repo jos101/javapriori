@@ -1,0 +1,64 @@
+## YAML Template.
+---
+tid: 100
+item: 1
+---
+tid: 100
+item: 3
+---
+tid: 100
+item: 4
+---
+tid: 200
+item: 2
+---
+tid: 200
+item: 3
+---
+tid: 200
+item: 5
+---
+tid: 300
+item: 1
+---
+tid: 300
+item: 2
+---
+tid: 300
+item: 3
+---
+tid: 300
+item: 5
+---
+tid: 400
+item: 2
+---
+tid: 400
+item: 5
+---
+tid: 500
+item: 1
+---
+tid: 500
+item: 3
+---
+tid: 600
+item: 2
+---
+tid: 600
+item: 5
+---
+tid: 700
+item: 1
+---
+tid: 700
+item: 3
+---
+tid: 800
+item: 2
+---
+tid: 800
+item: 3
+---
+tid: 800
+item: 5
