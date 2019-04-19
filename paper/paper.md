@@ -22,7 +22,7 @@ Apriori [@apriori] is a data mining algorithm focusing to obtain the proper
 association rules in a set of transactions. Where transactions represent the 
 registration of a purchased done by a visitor in a basket. Market Basket Analysis 
 is where this algorithm belongs; other techniques with the same goal are FP-Tree 
-[Han2004] orFP-Growth [@borgelt]. Then the field of research initiated in the 
+[Han2004] or FP-Growth [@borgelt]. Then the field of research initiated in the 
 market field but has been useful in other fields like human resource management 
 or entrepreneurship as explained in [@market].
 
