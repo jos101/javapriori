@@ -17,6 +17,7 @@ bibliography: paper.bib
 ---
 
 ```Background```
+
 Apriori [@apriori] is a data mining algorithm focusing to obtain the proper 
 association rules in a set of transactions. Where transactions represent the 
 registration of a purchased done by a visitor in a basket. Market Basket Analysis 
