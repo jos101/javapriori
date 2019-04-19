@@ -727,8 +727,7 @@ public class Transacciones {
         int arrItemLength = arrItem.length;
         if( arrItemLength == 1)
         {
-            if( esYml )
-            {
+            
 
                 Iterator it = transaccion.entrySet().iterator();
                 int i = 0;
@@ -750,45 +749,6 @@ public class Transacciones {
                         }
                     }
                 }
-            }
-            else//halla el soporte de con el archivo sin formato yml
-            {
-                String full = fullTrans;
-                while( /* esta al final de los elementos de la transaccion */ ( full.indexOf(", " + item) > -1 && ( full.indexOf(", " + item) + (", " + item).length()  ) == full.length() ) || /* esta en el medio de los elementos de la transaccion */( full.indexOf( ", " + item + ", ") > -1 ) || /* es el unico elemento en la transaccion */( full.indexOf( item) == 0 && (full.length() == item.length() ) ) ||/* esta al principio con varios elementos*/ (full.indexOf( item + ", ") == 0 ) )                    
-                {
-                    dblReturn ++;
-                    /* esta al final de los elementos de la transaccion */
-                    if( full.indexOf(", " + item) > -1 && ( full.indexOf(", " + item) + (", " + item).length()  ) == full.length() )
-                    {
-                        full = full.substring( 0, full.indexOf(", " + item) );
-                    }
-                    
-                    /* esta en el medio de los elementos de la transaccion */
-                    else if ( full.indexOf( ", " + item + ", ") > -1 )
-                    {
-                        int inicio = full.indexOf( ", " + item + ", ");
-                        String str1 = "";
-                        String str2 = "";
-                        str1 = full.substring( 0,  inicio/*2 + item.length()*/ );
-                        str2 = full.substring( ( inicio + (", " + item + ", ").length() ) );
-                        full = str1 + ", " + str2;
-                        String debug = "";
-                    }
-
-                    /* es el unico elemento en la transaccion */
-                    else if
-                    ( full.indexOf( item) == 0 && (full.length() == item.length() ) )
-                    {
-                        full = full.substring(0, 0);
-                    }
-                    /* esta al principio con varios elementos*/
-                    if(full.indexOf( item + ", ") == 0 )
-                    {
-                        full = full.substring(0, (item + ", ").length() );
-                    }
-                }
-
-            }
         }
         else //posee mas de un elemento el candidato
         {
