@@ -83,7 +83,8 @@ item: 5
 This implementation uses the library Yamlbeans (https://github.com/EsotericSoftware/yamlbeans) 
 to serialize data from a YML file, however a text format may be used as well.
 
-``Features and funtionality ``
+```Features and funtionality ```
+
 The ``Javapriori`` tool allows to specify the behaivor via the parameters of the command line.
 the following example execute it over a text file with a 80% of confidence and 20% of support. 
 
