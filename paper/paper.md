@@ -43,7 +43,8 @@ shown in the command line or export in a JSON or ``traditional`` format.
 The ``traditional`` format is represented with the id of the items represented
 in every row.
 
-```traditional format
+```
+traditional format
 1 3 4
 2 3 5 
 1 2 3 5 
